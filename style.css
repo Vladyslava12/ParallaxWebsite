@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+body, html {
+    font-family: 'Koulen', cursive;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #fff;
+    margin: 0;
+    height: 100%;
+
+
+}
+
+.pimg1 {
+    background: url(/img/pimg1.jpg);
+    min-height: 100%;
+}
+.pimg2 {
+    background: url(/img/pimg2.jpg);
+    min-height: 100%;
+}
+.pimg3 {
+    background: url(/img/pimg3.jpg);
+    min-height: 100%;
+}
+.pimg1, .pimg2, .pimg3 {
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.76;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section {
+    text-align: center;
+    padding: 50px 80px
+}
+.section-light {
+    background-color:#F6EEF4;
+    color: #9D959B
+}
+.section-dark {
+    background-color: #8b8899;
+    color: #F3E8F1
+
+}
+.ptext {
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 9px;
+
+}
+.ptext .border {
+    background-color:#353743;
+    color: #fff;
+    padding: 12px
+}
+.ptext .border.transparent {
+    background-color: transparent;
+}
